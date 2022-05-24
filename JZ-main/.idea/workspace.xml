@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f48091f0-45c7-4ffb-9711-ee87a137d7ec" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/LL/myproject/beer/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Asahi Super Dry Black.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Asahi Super Dry.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Bavaria 8.6 (Original).jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Bavaria Pilsener.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Beck's.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Beer.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Berliner Kindl Jubiläums Pilsener Premium.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Bintang Pilsener.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Budweiser.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Carlsberg Pilsner.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Cass Fresh.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Castlemaine XXXX Gold Lager.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Desperados.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Edelweiss Weissbier Snowfresh.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Egger Grapefruit Radler.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Egger Märzenbier.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Eichbaum Apostel Bräu.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Erdinger Weissbier Dunkel.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Erdinger Weissbier.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Franziskaner Hefe-Weissbier.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Gambrinus Originál 10° (Desítka).jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Grolsch Premium Lager.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Guinness Draught.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Guinness Original 4.2%.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Harbin Beer.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Heineken Dark Lager.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Heineken.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Hite D (Dry Finish).jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Hite Extra Cold.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Hite Prime Max.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Hoegaarden Rosée.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Hoegaarden.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Holsten Premium Bier.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Jeju Wit Ale.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Kirin Ichiban.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Kloud Fitz Super Clear.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Kloud Original Gravity.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Kozel Černý (Dark) 10°.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Krombacher Weizen.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Kronenbourg 1664 Blanc.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Lapin Kulta IV A.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Leffe Brune.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Löwenbräu Original (4.2%).jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Miller Genuine Draft (MGD).jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/OB Premier Pilsner.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Paulaner Hefe-Weissbier.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Peroni Nastro Azzurro.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Pilsner Urquell.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Red Rock.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Reeper B. Exotisches IPA.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/San Miguel.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Sapporo Premium Beer.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Sapporo Yebisu.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Schöfferhofer Grapefruit.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Stella Artois.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Stephans Bräu Hefe-Weizen Naturtrüb.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Stephans Bräu Premium Lager.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Stephans Bräu Premium Pilsener.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Suntory The Premium Malt's.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Tiger Beer.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Tiger Radler Lemon.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Tsingtao Wheat Beer.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Tsingtao.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Victoria Bitter.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Volfas Engelman Grünberger Hefeweizen.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/Warsteiner Premium Verum.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/static/mg/맥주배경.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/templates/beer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/LL/myproject/beer/templates/beer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/templates/beer/ver1.html" beforeDir="false" afterPath="$PROJECT_DIR$/LL/myproject/beer/templates/beer/ver1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/templates/beer/ver1_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/LL/myproject/beer/templates/beer/ver1_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/templates/beer/ver2_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/LL/myproject/beer/templates/beer/ver2_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LL/myproject/beer/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/beer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/LL/myproject/beer/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LL/myproject/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LL/myproject/myproject/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="252yYLDX0HszFiADraRc0IamS3K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JZ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LL/myproject/beer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LL/myproject/beer/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f48091f0-45c7-4ffb-9711-ee87a137d7ec" name="Changes" comment="" />
+      <created>1644739524308</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644739524308</updated>
+    </task>
+    <servers />
+  </component>
+</project>
