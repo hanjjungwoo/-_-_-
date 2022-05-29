@@ -78,19 +78,19 @@
 <body>
   <div class="nav-comtain">
     <nav>
-      <a href="/">HOME</a>
-      <a href="{% url 'beer:ver2_select'%}">EXPERIENCE</a>
-      <a href="{% url 'beer:ver3_select'%}">THEME</a>
-      {% if login_session%}
-      <a href="{% url 'user:logout' %}"><button class="logout-btn">LOGOUT</button></a>
-      <a href="{% url 'beer:purpose' %}">Survey</button></a>
-      {% else %}
-      <a href="{% url 'user:login' %}"><button class="login-btn">LOGIN</button></a>
-      <a href="{% url 'user:register' %}"><button class="join-btn">JOIN</button></a>
-      {% endif %}
-      <div id="indicator"></div>
-      </nav>
-  </div>
+        <a href="/">HOME</a>
+        <a href="{% url 'beer:ver2_select'%}">EXPERIENCE</a>
+        <a href="{% url 'beer:ver3_select'%}">THEME</a>
+        {% if login_session%}
+        <a href="{% url 'user:logout' %}"><button class="logout-btn">LOGOUT</button></a>
+        <a href="{% url 'beer:purpose' %}"><button class="logout-btn">Survey</button></a>
+        {% else %}
+        <a href="{% url 'user:login' %}"><button class="login-btn">LOGIN</button></a>
+        <a href="{% url 'user:register' %}"><button class="join-btn">JOIN</button></a>
+        {% endif %}
+        <div id="indicator"></div>
+    </nav>
+</div>
   <br />
   <div class="header">
     <a class="header-a" onclick="location.href='/'">너와 나드리</a>

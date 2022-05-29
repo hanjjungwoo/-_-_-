@@ -42,6 +42,7 @@
             <a href="{% url 'beer:ver3_select'%}">THEME</a>
             {% if login_session%}
             <a href="{% url 'user:logout' %}"><button class="logout-btn">LOGOUT</button></a>
+            <a href="{% url 'beer:purpose' %}"><button class="logout-btn">Survey</button></a>
             {% else %}
             <a href="{% url 'user:login' %}"><button class="login-btn">LOGIN</button></a>
             <a href="{% url 'user:register' %}"><button class="join-btn">JOIN</button></a>
@@ -520,9 +521,7 @@
                         <p>테마기반 추천받기</p>
                     </li>
 
-                    <li>
-                        <p>세션기반 추천받기</p>
-                    </li>
+
                 </ul>
             </li>
 
