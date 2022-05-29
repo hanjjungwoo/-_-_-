@@ -16,6 +16,7 @@
     <link rel="stylesheet" href={% static 'css/style.css' %}>
     <link rel="stylesheet" href={% static 'css/reset.css' %}>
     <link rel="stylesheet" href={% static 'css/forms.css' %}>
+    <script src="../../static/js/includeHtml.js"></script>
     <title>회원가입</title>
 </head>
 
@@ -29,22 +30,22 @@
 
             
             <div>
-                <label for="{{ form.id_for_label }}" class="form-font">{{ form.label }}</label>
+                <label for="{{ form.id_for_label }}" class="form-font">아이디{{ form.label }}</label>
                 {{ forms.user_id }}
                 
-                <label for="{{ form.id_for_label }}" class="form-font">{{ form.label }}</label>
+                <label for="{{ form.id_for_label }}" class="form-font">비밀번호{{ form.label }}</label>
                 {{ forms.user_pw }}
 
-                <label for="{{ form.id_for_label }}" class="form-font">{{ form.label }}</label>
+                <label for="{{ form.id_for_label }}" class="form-font">비밀번호 확인{{ form.label }}</label>
                 {{ forms.user_pw_confirm }}
 
-                <label for="{{ form.id_for_label }}" class="form-font">{{ form.label }}</label>
+                <label for="{{ form.id_for_label }}" class="form-font">이름{{ form.label }}</label>
                 {{ forms.user_name }}
 
                 
                 {{ forms.user_gender }}
 
-                <label for="{{ form.id_for_label }}" class="form-font">{{ form.label }}</label>
+                <label for="{{ form.id_for_label }}" class="form-font">이메일{{ form.label }}</label>
                 {{ forms.user_email }}
 
 
@@ -58,6 +59,9 @@
                 style="margin-top:10px">회원가입하기</button>
         </div>
     </form>
+    <footer include-html={% static 'html/footer.html' %}>
+        <script>includeHTML();</script>
+    </footer>
 </body>
 
 </html>

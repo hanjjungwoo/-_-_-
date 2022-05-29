@@ -38,26 +38,38 @@ body {
     background-color: #fff;
     box-sizing: border-box;
 }
+.a-span {
+    text-decoration: none !important;
+}
 
 .recommendation-ver1 {
     display: inline-block;
     width: 15vw;
     height: 40vh;
-    background-image: url(../mg/ver1_a.png);
+    background-image: url(../mg/travel1.png);
     background-size: contain;
     background-repeat: no-repeat;  
     background-position: center;  
+}
+.recommendation-ver2 {
+    display: inline-block;
+    width: 15vw;
+    height: 40vh;
+    background-image: url(../mg/travel2.png);
+    background-size: contain;
+    background-repeat: no-repeat;  
+    background-position: center;   
 }
 .recommendation-ver3 {
     display: inline-block;
     width: 15vw;
     height: 40vh;
-    background-image: url(../mg/ver3_a.png);
+    background-image: url(../mg/travel3.png);
     background-size: contain;
     background-repeat: no-repeat;  
     background-position: center;   
-    
 }
+
 
 /* 상단네브 */
 

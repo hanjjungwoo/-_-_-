@@ -15,11 +15,14 @@
   <link rel="stylesheet" href={% static 'css/reset.css' %}>
   <link rel="stylesheet" hrer={% static 'css/forms.css' %}>
   <link rel="icon" type="image/x-icon" href={% static 'favicon/favicon.ico' %}>
-  <script> function goData() {
+  <script>
+    function goData() {
       var form = document.userinput;
 
       form.action = "{% url 'beer:ver3_session' %}"
-    }</script>
+    }
+
+  </script>
   <meta charset="UTF-8">
   <title>테마별 추천</title>
   <style>
@@ -79,7 +82,8 @@
     <a class="header-a" onclick="location.href='/'">너와 나드리</a>
   </div>
   <div class="ver3-contain">
-    <form class="ver3-form" method="POST" onsubmit="return confirm('선택이 완료되었습니다. 다음페이지를 누르세요👆');">
+    <iframe name="formsubmit" style="display: none;"></iframe>
+    <form class="ver3-form" method="post" onsubmit="alert('성공')" target="formsubmit">
       {% csrf_token %}
       <ul class="ver3-from-contain">
         <li class="question" id="q1">
@@ -142,8 +146,6 @@
           <div class="ver3-form-in">
             <div class="btn-section">
               <input class="btn-submit" type="submit" value="Pick!">
-
-
             </div>
           </div>
         </li>

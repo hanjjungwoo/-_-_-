@@ -13,6 +13,7 @@
   <link rel="stylesheet" href={% static 'css/style.css' %}>
   <link rel="stylesheet" href={% static 'css/reset.css' %}>
   <link rel="icon" type="image/x-icon" href={% static 'favicon/favicon.ico' %}>
+  <script src="../../static/js/includeHtml.js"></script>
   <meta charset="UTF-8">
   <title>경험기반추천</title>
   <style>
@@ -82,12 +83,13 @@
       <a href="{% url 'beer:ver3_select'%}">THEME</a>
       {% if login_session%}
       <a href="{% url 'user:logout' %}"><button class="logout-btn">LOGOUT</button></a>
+      <a href="{% url 'beer:purpose' %}">Survey</button></a>
       {% else %}
       <a href="{% url 'user:login' %}"><button class="login-btn">LOGIN</button></a>
       <a href="{% url 'user:register' %}"><button class="join-btn">JOIN</button></a>
       {% endif %}
       <div id="indicator"></div>
-    </nav>
+      </nav>
   </div>
   <br />
   <div class="header">
@@ -171,83 +173,8 @@
     data-ad-client="ca-pub-6672621543823482" data-ad-slot="2683442818">
   </ins>
 
-  <footer class="footer" style="margin-top:5vh;">
-    <div class="footer-addr">
-      <div style="text-align:left">
-        <a class="footer-logo" onclick="location.href='/'">너와 나드리</a>
-      </div>
-      <h2>Contact</h2>
-
-      <address>
-        <div style="text-align:left">
-          <a
-            href="https://www.google.com/maps/place/%EC%A4%91%EB%B6%80%EB%8C%80%ED%95%99%EA%B5%90+%EA%B3%A0%EC%96%91%EC%BA%A0%ED%8D%BC%EC%8A%A4+%E4%B8%AD%E9%83%A8%E5%A4%A7%E5%AD%B8%E6%A0%A1+Joongbu+University/data=!4m5!3m4!1s0x357c943e1caccd2b:0x56404200ca89df47!8m2!3d37.713203!4d126.8900751">
-            중부대학교 창의캠퍼스. 세종관 828호
-          </a><br>
-        </div>
-
-        <a class="footer-btn">문의하기</a>
-      </address>
-    </div>
-
-    <ul class="footer-p">
-      <li class="p-item">
-        <h2 class="p-title">너와 나드리</h2>
-
-        <ul class="p-ul">
-          <li>
-            <p>김병찬</p>
-          </li>
-
-          <li>
-            <p>정욱채</p>
-          </li>
-
-          <li>
-            <p>한정우</p>
-          </li>
-        </ul>
-      </li>
-
-      <li class="p-item">
-        <h2 class="p-title">사용기술</h2>
-
-        <ul class="p-ul">
-          <li>
-            <p>경험기반 추천받기</p>
-          </li>
-
-          <li>
-            <p>테마기반 추천받기</p>
-          </li>
-
-          <li>
-            <p>세션기반 추천받기</p>
-          </li>
-        </ul>
-      </li>
-
-      <li class="p-item">
-        <h2 class="p-title">지도교수</h2>
-
-        <ul class="p-ul">
-          <li>
-            <p>김송강 교수</p>
-          </li>
-
-          <li>
-            <p>황호진 교수</p>
-          </li>
-
-        </ul>
-      </li>
-    </ul>
-
-    <div class="footer-sub">
-      <div class="sub-name">
-        <p>&copy; 2022 정보통신학과. 졸업작품 프로젝트.</p>
-      </div>
-    </div>
+  <footer include-html={% static 'html/footer.html' %}>
+    <script>includeHTML();</script>
   </footer>
 </body>
 

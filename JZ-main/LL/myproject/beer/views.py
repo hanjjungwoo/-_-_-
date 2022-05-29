@@ -168,7 +168,7 @@ def ver2_select(request):
 
 
 # 고치기
-@login_required
+
 def purpose(request):
     beer_list = pd.read_csv('result.csv', encoding='utf-8', index_col=0)
 

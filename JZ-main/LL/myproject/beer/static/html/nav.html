@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="../../static/js/includeHtml.js"></script>
+</head>
+<title></title>
+
+<body>
+    <nav>
+    <a href="/">HOME</a>
+    <a href="{% url 'beer:ver2_select'%}">EXPERIENCE</a>
+    <a href="{% url 'beer:ver3_select'%}">THEME</a>
+    {% if login_session%}
+    <a href="{% url 'user:logout' %}"><button class="logout-btn">LOGOUT</button></a>
+    <a href="{% url 'beer:purpose' %}">Survey</button></a>
+    {% else %}
+    <a href="{% url 'user:login' %}"><button class="login-btn">LOGIN</button></a>
+    <a href="{% url 'user:register' %}"><button class="join-btn">JOIN</button></a>
+    {% endif %}
+    <div id="indicator"></div>
+    </nav>    
+</html>
+
+</body>
+
+</html>

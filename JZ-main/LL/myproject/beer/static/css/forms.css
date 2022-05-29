@@ -13,7 +13,7 @@ a{color:inherit;text-decoration:none}
     margin-top: 5%;
     color: #77cdd3;
     text-align: center;
-    font-size: 7vw;
+    font-size: 150px;
     font-family: "jua";
     margin-bottom: 3%;
     text-decoration: none;
@@ -21,53 +21,59 @@ a{color:inherit;text-decoration:none}
 }
 
 .login-form {
-	width:100%;
+	width:640px;
+    height:580px;
 	margin:auto;
-	max-width:525px;
-	min-height:670px;
+	max-width:640px;
+	height:580px;
 	position:relative;
-	background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
+	background:url(../mg/form_img.png) no-repeat center ;
+    background-size: cover;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
     border-radius: 2vw;
+    margin-bottom: 10vh;
 }
 .login-html{
-    width:100%;
-	height:100%;
+	width:640px;
+    height:580px;
 	position:absolute;
 	padding:90px 70px 50px 70px;
 	background:rgba(95, 163, 168, 0.9);
     border-radius: 2vw;
+    margin-bottom: 10vh;
 }
 .login-head{
     font-weight: bold;
     color: #fff;
     font-family: "jua";
-    font-size: 2vw;
+    font-size: 50px;
     padding-bottom: 4vh;
 }
 .join-form {
-	width:100%;
+	width:640px;
+    height:800px;
 	margin:auto;
-	max-width:525px;
-	min-height:670px;
 	position:relative;
-	background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
+	background:url(../mg/form_img.png) no-repeat center ;
+    background-size: cover;
 	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
     border-radius: 2vw;
+    margin-bottom: 10vh;
 }
 .join-html{
-    width:100%;
-	height:100%;
+	width:640px;
+    height:800px;
 	position:absolute;
 	padding:90px 70px 50px 70px;
 	background:rgba(95, 163, 168, 0.9);
     border-radius: 2vw;
+    margin-bottom: 10vh;
 }
 .join-head{
     font-weight: bold;
     color: #fff;
     font-family: "jua";
-    font-size: 2vw;
+    font-size: 50px;
     padding-bottom: 4vh;
 }
 .form-font {
@@ -75,44 +81,47 @@ a{color:inherit;text-decoration:none}
     color:rgb(179, 179, 179);
 	font-size:12px;
     font-family: "jua";
-    font-size: 1vw;
+    font-size: 25px;
 }
 input[type=text] {
     border:none;
-    width: 22vw;
+    width: 500px;
+    height: 50px;
 	padding:15px 20px;
 	border-radius:25px;
     background-color: #ffffff1a;
-    color:#aaa;
+    color:#fff;
     margin-bottom: 2vh;
 }
 input[type=password] {
     border:none;
-    width: 22vw;
+    width: 500px;
+    height: 50px;
 	padding:15px 20px;
 	border-radius:25px;
     background-color: #ffffff1a;
-    color:#aaa;
+    color:#fff;
     margin-bottom: 2vh;
 }
 input[type=email]{
     border:none;
-    width: 22vw;
+    width: 500px;
+    height: 50px;
 	padding:15px 20px;
 	border-radius:25px;
     background-color: #ffffff1a;
-    color:#aaa;
+    color:#fff;
     margin-bottom: 2vh;
 }
 .form-btn {
     outline: 0;
     border: 0;
-    width: 22vw;
-    height: 5vh;
+    width: 500px;
+    height: 50px;
     border-radius: 1vw;
     box-sizing: border-box;
     font-family: "jua";
-    font-size: 1.2vw;
+    font-size: 25px;
 }
 .form-a {
     margin-top: 2vh;
@@ -120,13 +129,13 @@ input[type=email]{
     text-decoration: none !important;
     outline: 0;
     border: 0;
-    width: 22vw;
-    height: 5vh;
+    width: 500px;
+    height: 50px;
     border-radius: 1vw;
     background-color: #efefef;
     padding-top: 3%;
     text-align: center;
     box-sizing: border-box;
     font-family: "jua";
-    font-size: 1.2vw;
+    font-size: 25px;
 }

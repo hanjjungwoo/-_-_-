@@ -13,4 +13,6 @@ function nextlabel4() {
 function nextlabel5() {
     document.getElementById('q6').scrollIntoView({behavior:'smooth'});
 }
-
+function nextlabel6() {
+    document.getElementById('q6').scrollIntoView({behavior:'smooth'});
+}

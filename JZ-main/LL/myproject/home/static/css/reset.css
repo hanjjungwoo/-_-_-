@@ -32,7 +32,10 @@ body {
 	line-height: 1;
 }
 a {
-    text-decoration-line : none;
+    text-decoration-line : none !important;
+}
+a:hover {
+	color:none;
 }
 ol, ul, li {
 	list-style: none;

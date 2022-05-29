@@ -55,36 +55,64 @@ body {
     align-items: center;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-color: #fff;
+    background-color: #f8f8ff;
     box-sizing: border-box;
+}
+.a-span {
+    color: #EC994B;
+    display: inline;
 }
 
 .recommendation-ver1 {
     display: inline-block;
-    width: 15vw;
-    height: 40vh;
-    background-image: url(../mg/ver1_a.png);
+    width: 12vw;
+    height: 32vh;
+    background-image: url(../mg/travel1.png);
     background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-repeat: no-repeat;  
+    background-position: center; 
+    text-decoration: none !important;
+    color: #2f2f2f;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: "jua";
+    text-align: center;
 }
-
-.recommendation-ver3 {
+.recommendation-ver2 {
     display: inline-block;
-    width: 15vw;
-    height: 40vh;
-    background-image: url(../mg/ver3_a.png);
+    width: 12vw;
+    height: 32vh;
+    background-image: url(../mg/travel3.png);
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;  
     background-position: center;
-
+    text-decoration: none !important;
+    color: #2f2f2f;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: "jua";
+    text-align: center;
 }
+/* .recommendation-ver3 {
+    display: inline-block;
+    width: 12vw;
+    height: 32vh;
+    background-image: url(../mg/travel3.png);
+    background-size: contain;
+    background-repeat: no-repeat;  
+    background-position: center;   
+    text-decoration: none !important;
+    color: #2f2f2f;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: "jua";
+} */
 
 /* 상단네브 */
 
 .nav-comtain {
     margin: 0;
-    background-color: #fff;
+    background-color: #f8f8ff;
     height: 6vh;
     width: 3vw;
 }
@@ -109,6 +137,18 @@ nav a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     padding: 10px 20px;
+    transition: 0.2s ease color;
+}
+nav a:nth-child(5) {
+    position: relative;
+    width: 33.333%;
+    display: table-cell;
+    text-align: center;
+    color: #949494;
+    text-decoration: none !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px 0;
     transition: 0.2s ease color;
 }
 
@@ -229,6 +269,7 @@ nav a:nth-child(5):hover~#indicator {
     text-decoration: none !important;
     font-weight: bold;
     padding-top: 10px;
+    padding-right: 20px;
     padding-bottom: 10px;
     border: 0;
     outline: 0;
@@ -245,6 +286,7 @@ nav a:nth-child(5):hover~#indicator {
     text-decoration: none !important;
     font-weight: bold;
     padding-top: 10px;
+    padding-right: 20px;
     padding-bottom: 10px;
     border: 0;
     outline: 0;
@@ -281,7 +323,7 @@ nav a:nth-child(5):hover~#indicator {
     background-color: #f8f8ff;
     border: solid 1px #e6e6e6;
     border-radius: 6vh;
-    height: 85vh;
+    height: 65vh;
     width: 30vw;
     top: 49vh;
     left: 35vw;
@@ -551,6 +593,14 @@ nav a:nth-child(5):hover~#indicator {
     box-sizing: border-box;
     text-align: left;
 }
+.hotel-contain-right span{
+                background-color: #D1E2FA;
+            color: #2155CD;
+            margin-right: 10px;
+            border-radius: 10px;
+            padding: 5px;
+            font-weight: bold;
+}
 
 .classfication {
     color: #D82148;
@@ -785,7 +835,7 @@ footer {
 /* 설문조사 */
 
 .ver3-from-contain {
-    background-color: #fff;
+    background-color: #f8f8ff;
     overflow: hidden;
     height: 50vh;
     width: 48vw;

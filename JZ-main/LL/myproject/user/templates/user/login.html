@@ -16,28 +16,11 @@
     <link rel="stylesheet" href={% static 'css/style.css' %}>
     <link rel="stylesheet" href={% static 'css/reset.css' %}>
     <link rel="stylesheet" href={% static 'css/forms.css' %}>
+    <script src="../../static/js/includeHtml.js"></script>
     <title>로그인</title>
 </head>
 
 <body>
-    {% comment %} <div class="nav-comtain">
-        <nav>
-            <a href="/">HOME</a>
-            <a href="{% url 'ver2'%}">EXPERIENCE</a>
-            <a href="{% url 'ver3'%}">THEME</a>
-            {% if login_session%}
-            <a href="{% url 'user:logout' %}"><button class="logout-btn">LOGOUT</button></a>
-            {% else %}
-            <a href="{% url 'user:login' %}"><button class="login-btn">LOGIN</button></a>
-            <a href="{% url 'user:register' %}"><button class="join-btn">JOIN</button></a>
-            {% endif %}
-            <div id="indicator"></div>
-        </nav>
-    </div>
-    <br />
-    <div class="header">
-        <a class="header-a" onclick="location.href='/'">너와 나드리</a>
-    </div> {% endcomment %}
     <div class="header-body">
         <span class="form-header" onclick="location.href='/'">너와 나드리</span>
     </div>
@@ -64,6 +47,9 @@
             </div>
         </div>
     </form>
+    <footer include-html={% static 'html/footer.html' %}>
+        <script>includeHTML();</script>
+    </footer>
 </body>
 
 
