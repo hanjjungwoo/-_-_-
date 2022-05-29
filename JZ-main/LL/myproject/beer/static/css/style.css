@@ -611,6 +611,9 @@ nav a:nth-child(5):hover~#indicator {
     padding: 5px;
     font-weight: bold;
 }
+.hotel-contain-right h1 {
+    margin-bottom: 20px;
+}
 
 .classfication {
     color: #D82148;
@@ -619,6 +622,7 @@ nav a:nth-child(5):hover~#indicator {
 }
 
 .rate-and-review {
+    margin-top: 20px;
     font-size: 1vw;
     font-weight: bold;
 }
